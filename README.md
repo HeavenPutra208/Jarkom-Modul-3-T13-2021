@@ -535,3 +535,4 @@ delay_parameters 2 none**
 ```
 
 ## Kendala yang Dialami
+Saat pengerjaan, kebanyakan materi soal tidak ada di modul, contohnya DHCP Relay, tidak disebutkan dalam modul satupun. Kami sempat bingung sehingga harus menggali lebih dalam lewat Google. Untuk kendala lainnya tidak ada, semua soal sudah kami kerjakan dengan benar.
