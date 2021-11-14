@@ -26,7 +26,11 @@
 Luffy bersama Zoro berencana membuat peta tersebut dengan kriteria EniesLobby sebagai DNS Server, Jipangu sebagai DHCP Server, Water7 sebagai Proxy Server.
 ### Penyelesaian
 Untuk no. 1, kami membuat topologi seperti modul GNS3 hingga bisa terkoneksi dengan internet, lalu konfigurasi sebagai berikut:
-![image]()
+
+<br>
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/1.png" />
+<br>
+
 Untuk router **Foosha** pada /etc/network/interfaces, konfigurasi nodenya seperti berikut: 
 
 ```bash
@@ -213,7 +217,9 @@ options {
 
 Diketahui bahwa ip EniesLobby ```10.48.2.2```, maka mengubahnya di settingan seperti no 3 dan 4
 
-![image]()
+<br>
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/2.png" />
+<br>
 
 ## Soal 6
 Lama waktu DHCP server meminjamkan alamat IP kepada Client yang melalui Switch1 selama 6 menit sedangkan pada client yang melalui Switch3 selama 12 menit. Dengan waktu maksimal yang dialokasikan untuk peminjaman alamat IP selama 120 menit.
@@ -254,7 +260,6 @@ Luffy dan Zoro berencana menjadikan Skypie sebagai server untuk jual beli kapal 
 ### Penyelesaian
 Pada **Skypie (Client)**, ditambahkan hardware address sebagai berikut:
 
-![image]()
 
 Kemudian dijalankan perintah echo:
 ```bash
@@ -273,19 +278,29 @@ host Skypie {
 
 Alabasta (switch 1)
 
-![Untitled]()
+<br>
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/3.png" />
+<br>
 
 Loguetown (switch 1)
 
-![Untitled]()
+<br>
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/4.png" />
+<br>
 
 Skypie (switch 3)
 
-![Untitled]()
+<br>
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/5.png" />
+<br>
 
 TottoLand (switch 3)
 
-![Untitled]()
+<br>
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/6.png" />
+<br>
+
+****
 
 ## Soal 8
 Loguetown digunakan sebagai client Proxy agar transaksi jual beli dapat terjamin keamanannya, juga untuk mencegah kebocoran data transaksi.
@@ -356,8 +371,6 @@ http_access deny all**
 
 Kemudian di-restart dan dicoba di Loguetown dengan mencoba command ```lynx google.com```:
 
-![image]()
-![image]()
 
 ## Soal 11
 Agar transaksi bisa lebih fokus berjalan, maka dilakukan redirect website agar mudah mengingat website transaksi jual beli kapal. Setiap mengakses google.com, akan diredirect menuju super.franky.yyy.com dengan website yang sama pada soal shift modul 2. Web server super.franky.yyy.com berada pada node Skypie
