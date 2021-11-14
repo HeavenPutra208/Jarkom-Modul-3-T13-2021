@@ -28,7 +28,7 @@ Luffy bersama Zoro berencana membuat peta tersebut dengan kriteria EniesLobby se
 Untuk no. 1, kami membuat topologi seperti modul GNS3 hingga bisa terkoneksi dengan internet, lalu konfigurasi sebagai berikut:
 
 <br>
-<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/1.png" />
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/img/1.png" />
 <br>
 
 Untuk router **Foosha** pada /etc/network/interfaces, konfigurasi nodenya seperti berikut: 
