@@ -216,11 +216,9 @@ options {
 ```
 
 Diketahui bahwa ip EniesLobby ```10.48.2.2```, maka mengubahnya di settingan seperti no 3 dan 4
-
 <br>
-<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/2.png" />
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/img/2.png" />
 <br>
-
 ## Soal 6
 Lama waktu DHCP server meminjamkan alamat IP kepada Client yang melalui Switch1 selama 6 menit sedangkan pada client yang melalui Switch3 selama 12 menit. Dengan waktu maksimal yang dialokasikan untuk peminjaman alamat IP selama 120 menit.
 ### Penyelesaian
@@ -277,29 +275,21 @@ host Skypie {
 ### Screenshot hasil konfigurasi dhcp
 
 Alabasta (switch 1)
-
 <br>
-<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/3.png" />
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/img/3.png" />
 <br>
-
 Loguetown (switch 1)
-
 <br>
-<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/4.png" />
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/img/4.png" />
 <br>
-
 Skypie (switch 3)
-
 <br>
-<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/5.png" />
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/img/5.png" />
 <br>
-
 TottoLand (switch 3)
-
 <br>
-<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/Img/6.png" />
+<img width="500" src="https://github.com/HeavenPutra208/Jarkom-Modul-3-T13-2021/blob/main/img/6.png" />
 <br>
-
 ****
 
 ## Soal 8
